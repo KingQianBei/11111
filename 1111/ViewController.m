@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UITableView *tv = [[UITableView alloc]initWithFrame:CGRectMake(0, 22, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
+    
+    [self.view addSubview:tv];
+    
 }
 
 - (void)didReceiveMemoryWarning {
